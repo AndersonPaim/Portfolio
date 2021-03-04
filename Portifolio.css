@@ -1,0 +1,206 @@
+/*@media only screen and (min-device-width: 360px){ MOBILE*/
+    
+    body {
+        margin:0;
+        max-width: 1864px;
+        touch-action: none;
+    }
+
+    model-viewer{
+        width: 500px;
+        height: 400px;
+    }
+
+    #menu{
+        display: flex;
+        margin: 0;
+    }
+
+    li{
+        color: white;
+        display: block;
+        padding: 25px;
+    }
+
+    li:first-child{
+        margin-right: auto;
+    }
+
+    .capaFundo{
+        margin: 0;
+        padding: 0;
+        width: 1864px;
+        height: 1000px;
+        margin-top: auto;
+        background: linear-gradient(#640370ba, #2bb3f1cc), url(https://storage.googleapis.com/pyre-site/uploads/post/cover/1780/4d9960d5b0.png) no-repeat top center;
+    }
+    .fundoProjetos{
+        background: linear-gradient(#630370f1, #2bb2f1e3), url(src/img/background.jpg) top center;
+        width: 1864px;
+    }
+
+    .textoCapa{
+        color: white;
+        font-family: 'Bree Serif', serif;
+        position: absolute;
+        top: 550px;
+        left: 935px;
+        font-size: 70px;
+        transform: translate(-50%, -50%);
+    }
+    
+    .textoCapa2{
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        position:absolute;
+        top: 630px;
+        left: 935px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .capa{
+        margin: 0;
+        padding: 0;
+        width: 1864px;
+        height: 1000px;
+        background-color: rgba(27, 126, 77, 0.568);
+    }
+
+    .fotoPerfil{
+        position: absolute;
+        top: 230px;
+        left: 800px;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+    }
+
+    .projetos{
+        width:1300px;
+        height: 90px;   
+        display: flex;
+        padding: 10px;
+        font-family: 'Bree Serif', serif;
+        border-right: 200px;
+    }
+
+    .projetosExpand{
+        height: auto;
+        padding: 15px;
+        display: none;
+        overflow: hidden;
+        background-color: #36353542;
+        max-height: 200px;
+        transition: max-height 0.3s ease-out;
+        width:1290px;
+    }
+
+    .sobre{
+        height: 300px;
+        vertical-align: middle;
+        line-height: 50px;
+        margin-top: 80px;
+        width: 1844px;
+    }
+
+    .contato{
+        height: 200px;
+        vertical-align: middle;
+        line-height: 10px;
+        margin-bottom: 50px;
+        margin-top: 80px;
+        width: 1844px;
+    }
+
+    .footer{
+        height: 100px;
+        text-align: center;
+        color: white;
+        background-color:rgb(26, 24, 24);
+        vertical-align: middle;
+        line-height: 100px;
+        font-family: 'Bree Serif', serif;
+        width: 1864px;
+    }
+    
+    .titulo{
+        height: 200px;
+        text-align: center;
+        color: white;
+        background-color:rgb(26, 24, 24);
+        vertical-align: middle;
+        line-height: 200px;
+        padding: 10px;
+        font-family: 'Bree Serif', serif;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        width: 1844px;
+    }
+
+    .active, .projetos:hover {
+        background-color:rgb(26, 24, 24);
+        color: white;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    h2{
+        font-family: 'Bree Serif', serif;
+        font-size: 20px;
+    }
+
+    img{
+        width: 480px;
+        height: 270px;
+        padding: 10px;
+        border-radius: 5%;
+    }
+
+    .email{
+        width: 50px;
+        height: 30px;
+        padding: 10px;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+
+    .discord{
+        width: 50px;
+        height: 80px;
+        padding: 0px;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+    }
+    p.footer{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Bree Serif', serif;
+    }
+    p.test{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Bree Serif', serif;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    span{
+        margin-right: 20px;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
